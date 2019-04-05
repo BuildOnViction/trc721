@@ -1,0 +1,9 @@
+{
+    "blockchain": {
+        "rpc": "https://testnet.tomochain.com",
+        "ws": "wss://testnet.tomochain.com/ws"
+    },
+    "truffle": {
+        "privateKey": ""
+    }
+}
