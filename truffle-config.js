@@ -9,12 +9,6 @@ module.exports = {
             provider: TestRPC.provider(),
             network_id: '*'
         },
-        local: {
-            host: 'localhost',
-            port: 8545,
-            gas: 4000000,
-            network_id: '*'
-        },
         tomo: {
             provider: function () {
                 let w = new HDWalletProvider(config.get('truffle.privateKey'), config.get('blockchain.rpc'))
@@ -25,7 +19,7 @@ module.exports = {
             },
             network_id: config.get('blockchain.networkId'),
             gas: 4000000,
-            gasPrice: 2500
+            gasPrice: 10000000000000
         }
     }
 }
