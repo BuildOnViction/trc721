@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/tomochain/trc721#readme",
   "dependencies": {
-    "config": "^3.1.0",
+    "config": "^3.3.8",
     "ganache-cli": "^6.4.2",
     "truffle-hdwallet-provider": "^1.0.6",
-    "web3-provider-engine": "^15.0.0"
+    "web3-provider-engine": "^15.0.12"
   }
 }
